@@ -15,6 +15,6 @@ public class insertionSort(int arr[], int n)
             arr[j+1] = arr[j];     //shift section of sorted elements upwards
             j--;
         }
-        arr[j] = last;         //set the last element at its correct index
+        arr[j+1] = last;         //set the last element at its correct index
 2
-    } 
+    }
